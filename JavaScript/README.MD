@@ -1,6 +1,6 @@
 # JavaScript
 
-1. [Introduction]()
+1. [Introduction](https://github.com/starrcaft/StudyNoteForWebfrontend/blob/master/JavaScript/Introduction.md)
 2. [Grammer and types]()
 3. [Control flow and error handling]()
 4. [Loops and iteration]()
