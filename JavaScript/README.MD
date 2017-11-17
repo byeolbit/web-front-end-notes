@@ -1,7 +1,7 @@
 # JavaScript
 
 1. [Introduction](https://github.com/starrcaft/StudyNoteForWebfrontend/blob/master/JavaScript/Introduction.md)
-2. [Grammer and types]()
+2. [Grammer and types](https://github.com/starrcaft/StudyNoteForWebfrontend/blob/master/JavaScript/Grammer_and_types.md)
 3. [Control flow and error handling]()
 4. [Loops and iteration]()
 5. [Functions]()
