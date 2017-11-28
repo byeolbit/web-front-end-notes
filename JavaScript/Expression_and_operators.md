@@ -49,15 +49,16 @@ Operator와 함께 사용하여, operator의 계산이 이루어진 값을 바�
 
 ### Bitwise operators
 비트 연산을 하기 위한 operator를 제공한다.
+
 |Operator|	Usage|	Description|
 |----|----|----|
-|Bitwise AND|	a & b|	Returns a one in each bit position for which the corresponding bits of both operands are ones.
-|Bitwise OR|	a \| b|	Returns a zero in each bit position for which the corresponding bits of both operands are zeros.
-|Bitwise XOR|	a ^ b|	Returns a zero in each bit position for which the corresponding bits are the same. [Returns a one in each bit position for which the corresponding bits are different.]
-|Bitwise NOT|	~ a|	Inverts the bits of its operand.
-|Left shift|	a << b|	Shifts a in binary representation b bits to the left, shifting in zeros from the right.
-|Sign-propagating right shift	|a >> b	|Shifts a in binary representation b bits to the right, discarding bits shifted off.
-|Zero-fill right shift	|a >>> b	|Shifts a in binary representation b bits to the right, discarding bits shifted off, and shifting in zeros from the left.
+|Bitwise AND|	a & b|	Returns a one in each bit position for which the corresponding bits of both operands are ones.|
+|Bitwise OR|	a \| b|	Returns a zero in each bit position for which the corresponding bits of both operands are zeros.|
+|Bitwise XOR|	a ^ b|	Returns a zero in each bit position for which the corresponding bits are the same. Returns a one in each bit position for which the corresponding bits are different.|
+|Bitwise NOT|	~ a|	Inverts the bits of its operand.|
+|Left shift|	a << b|	Shifts a in binary representation b bits to the left, shifting in zeros from the right.|
+|Sign-propagating right shift	|a >> b	|Shifts a in binary representation b bits to the right, discarding bits shifted off.|
+|Zero-fill right shift	|a >>> b	|Shifts a in binary representation b bits to the right, discarding bits shifted off, and shifting in zeros from the left.|
 
 ### Logical operators
 두 expression을 비교하기 위한 operator이다.
@@ -72,6 +73,54 @@ condition ? val1 : val2
 ```
 
 ### Comma operator
+하나의 expression을 사용하도록 되어있는 곳에 여러개의 expression을 사용할 수 있도록 해줌.
 
+eg.
+```JavaScript
+for (let i=0, j=9; i=<9; i++, j--) {...}
+```
 
 ### Unary operators
+Operand가 하나만 존재하는 Operator를 Unary Operator라고 한다.
+
+#### delete 
+object나 object의 property, 혹은 배열속의 특정 index의 element를 지운다.
+eg.
+```JavaScript
+delete objectName;
+delete objectName.property;
+delete objectName[index];
+```
+`delete`가 성공하면, property나 element는 `undefined`가 된다. `delete`는 성공했을 때 `ture`를 리턴하고, 불가능하다면 `false`를 리턴한다.
+
+#### typeof
+
+```JavaScript
+typeof operand
+```
+`operand`의 타입을 리턴한다.
+
+#### void
+```Javascript
+void expression
+```
+`void` operator는 실행결과 값이 `undefined`를 반환하도록 요구되는 곳에 `undefined`를 반환값으로 가질 수 있는 expression을 삽입할 경우에 사용
+
+`void(0)`을 사용해서 `undefined`값을 얻을 수 있다.
+
+### Relational operators
+Rerational operator는 operend들을 비교하고, 비교가 참인지에 따라 `Boolean`을 반환한다.
+
+#### in
+`in`operator는 어떤 property가 object안에 존재한다면 `true`를 반환한다.
+```JavaScript
+propNameOrNumber in objectName
+```
+
+#### instanceof
+`instanceof` operator는 object의 type을 반환한다.
+```JavaScript
+objectname instanceof objectType
+```
+
+
