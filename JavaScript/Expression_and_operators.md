@@ -123,4 +123,52 @@ propNameOrNumber in objectName
 objectname instanceof objectType
 ```
 
+## Expressions
+`expression`은 값으로 도출될 수 있는 실행 가능한 코드의 단위이다.
+JavaScript는 다음과 같은 category들을 갖는다.
+- Arithmetic
+- String
+- Logical
+- Primary expression
+- Left-hand-side expressions
 
+### Primary expression
+#### this
+현재 object를 참조하기 위한 키워드이다. 일반적으로 `this`는 메소드 안에서 호출된 object를 참조한다. `.`과 `[]`를 함께 사용할 수 있다.
+```JavaScript
+this['propertyName']
+this.propertyName
+```
+#### Grouping operator
+grouping operator `()`는 expression간의 우선순위를 조절하기 위해 쓰인다.
+
+#### Comprehension
+
+### left-hand-side expressions
+#### new
+`new`operator를 사용하여 유저가 정의한 타입, 또는 built-in타입들의 instance를 생성할 수 있다.
+```JavaScript
+var objectName = new objectType([param1, param2, ..., paramN]);
+```
+
+#### super
+`super`키워드는 object의 부모 function을 부르기 위해 사용된다.
+```JavaScript
+super([arguments]); // calls the parent constructor.
+super.functionOnParent([arguments]);
+```
+
+#### Spread operator
+`spread` operator는 함수 혹은 배열안에 여러개의 arguments혹은 elements를 가져야 하는 자리에 쓰일 수 있다.
+
+eg.
+```JavaScript
+// Array
+var parts = ['shoulder', 'knees'];
+var lyrics = ['head', ...parts, 'and', 'toes'];
+
+// Function
+function f(x, y, z) { }
+var args = [0, 1, 2];
+f(...args);
+```
