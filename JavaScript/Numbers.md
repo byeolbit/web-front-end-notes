@@ -18,6 +18,34 @@ Javascript의 모든 숫자는 *double-precision 64-bit binary format IEEE754(nu
 16진수를 표현하기 위해서 숫자의 제일 앞에 '0x' 혹은 '0X'를 붙인다. 그 뒤에 오는 숫자 범위는`01234567890ABCDEF`가 된다.
 
 # Number object
+Number object에는 몇가지 property들과 method들이 있다.
+
+|Property|	Description|
+|--------|-------------|
+|Number.MAX_VALUE	|The largest representable number
+|Number.MIN_VALUE	|The smallest representable number
+|Number.NaN	|Special "not a number" value
+|Number.NEGATIVE_INFINITY	|Special negative infinite value; returned on overflow
+|Number.POSITIVE_INFINITY	|Special positive infinite value; returned on overflow
+|Number.EPSILON	|Difference between one and the smallest value greater than one that can be represented as a Number.
+|Number.MIN_SAFE_INTEGER	|Minimum safe integer in JavaScript.
+|Number.MAX_SAFE_INTEGER	|Maximum safe integer in JavaScript.|
+
+
+|Method	|Description|
+|-------|-----------|
+|Number.parseFloat()|	Parses a string argument and returns a floating point number. Same as the global parseFloat() function.
+|Number.parseInt()|	Parses a string argument and returns an integer of the specified radix or base. Same as the global parseInt() function.
+|Number.isFinite()|	Determines whether the passed value is a finite number.
+|Number.isInteger()|	Determines whether the passed value is an integer.
+|Number.isNaN()|	Determines whether the passed value is NaN. More robust version of the original global isNaN().
+|Number.isSafeInteger()|	Determines whether the provided value is a number that is a safe integer.
+
+# Math object
+Math object에는 수학적 계산을 위한 property와 method들이 포함되어있다.
+
+# Date object
+JavaScript에는 date타입은 없지만, 빌트인 오브잭트인 date object를 사용하여 날짜와 시간을 계산할 수 있다.
 
 
 
