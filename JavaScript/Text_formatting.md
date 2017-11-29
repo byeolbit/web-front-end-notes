@@ -54,4 +54,19 @@ console.log(`Fifteen is ${a + b} and\nnot ${2 * a + b}.`));
 
 ECMAScript Internationalization API는 언어별 문자 비교, 숫자 포매팅, 시간과 날짜 포매팅을 제공하기 위한 것으로 `Intl`오브젝트를 통해 제공한다.
 
+## Regular Expression
+
+*Regualr Expression*(정규 표현식)은 문자열 안에서 원하는 문자 조합을 찾아내기 위한 패턴이다.
+다음의 두 가지 방법으로 regualr expression의 패턴을 선언할 수 있다.
+```JavaScript
+var re = /ab+c/; //Recommanded
+
+var re = new RegExp('ab+c');
+```
+
+정규 표현식 패턴을 만들기 위한 special charactors
+
+[Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+
+*Regualr expression*은 RegExp의 메소드들`test, exec`이나 String의 메소드들`match, replace, search, split`과 함께 사용된다.
 
