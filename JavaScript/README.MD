@@ -1,17 +1,16 @@
 # JavaScript
 
-1. [Introduction](https://github.com/starrcaft/StudyNoteForWebfrontend/blob/master/JavaScript/Introduction.md)
-2. [Grammer and types](https://github.com/starrcaft/StudyNoteForWebfrontend/blob/master/JavaScript/Grammer_and_types.md)
-3. [Control flow and error handling]()
-4. [Loops and iteration]()
-5. [Functions]()
-6. Expression and operators
-7. Numbers and dates
-8. Text formatting
-9. Regular expression
-10. Indexed collection
-11. Keyed collection
-12. Working with objects
-13. Details of the object model
-14. Iterators and generators
-15. Meta programming
+1. [Introduction](https://github.com/byeolbit/study-web-frontend/blob/master/JavaScript/Introduction.md)
+2. [Grammer and types](https://github.com/byeolbit/study-web-frontend/blob/master/JavaScript/Grammer_and_types.md)
+3. [Control flow and error handling](https://github.com/byeolbit/study-web-frontend/blob/master/JavaScript/Control_flow_and_error_handling.md)
+4. [Loops and iteration](https://github.com/byeolbit/study-web-frontend/blob/master/JavaScript/Loops_and_iteration.md)
+5. [Functions](https://github.com/byeolbit/study-web-frontend/blob/master/JavaScript/Functions.md)
+6. [Expression and operators](https://github.com/byeolbit/study-web-frontend/blob/master/JavaScript/Expression_and_operators.md)
+7. [Numbers and dates](https://github.com/byeolbit/study-web-frontend/blob/master/JavaScript/Numbers_and_dates.md)
+8. [Text formatting](https://github.com/byeolbit/study-web-frontend/blob/master/JavaScript/Text_formatting.md)
+10. [Indexed collection](https://github.com/byeolbit/study-web-frontend/blob/master/JavaScript/Indexed_collection.md)
+11. [Keyed collection](https://github.com/byeolbit/study-web-frontend/blob/master/JavaScript/Keyed_collection.md)
+12. [Working with objects](https://github.com/byeolbit/study-web-frontend/blob/master/JavaScript/Working_with_objects.md)
+13. [Details of the object model](https://github.com/byeolbit/study-web-frontend/blob/master/JavaScript/Details_of_the_object_model.md)
+14. [Iterators and generators](https://github.com/byeolbit/study-web-frontend/blob/master/JavaScript/Iterators_and_generators.md)
+15. [Meta programming](https://github.com/byeolbit/study-web-frontend/blob/master/JavaScript/Meta_programming.md)
