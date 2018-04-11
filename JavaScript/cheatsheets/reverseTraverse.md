@@ -29,8 +29,8 @@ list[Symbol.iterator] = function() {
         return {
           done: --i < 0,
           value: this[i],
-      };
-    },
+        };
+      },
     };
 };
 
