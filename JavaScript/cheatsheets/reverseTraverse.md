@@ -23,7 +23,7 @@ iteratable을 이용하면 원래 원본을 건드리지 않고도 좀 더 유�
 
 ```js
 list[Symbol.iterator] = function() {
-  let i = this.length;
+    let i = this.length;
     return {
       next: () => {
         return {
@@ -31,7 +31,7 @@ list[Symbol.iterator] = function() {
           value: this[i],
       };
     },
-  };
+    };
 };
 
 for (let item of list) {
