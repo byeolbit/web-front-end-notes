@@ -1,13 +1,13 @@
 # 배열을 거꾸로 순회하기(ES6)
 ```js
-let list = ['a','b','c','d'];
+let list = ['a','b','c','d','e'];
 ```
 배열을 거꾸로 순회하는 방법에는 몇가지가 있다.
 
 원시적으로는..
 ```js
 for(let i=list.length-1; i>=0; i--) {
-    console.log(list[i]); // 5, 4, 3, 2, 1
+    console.log(list[i]); // e, d, c, b, a
 }
 ```
 하지만 `for...in`이나 `for...of`를 쓰고 싶다면 어떻게 해아할까?
@@ -35,6 +35,6 @@ list[Symbol.iterator] = function() {
 };
 
 for (let item of list) {
-  console.log(item); // 5, 4, 3, 2, 1
+  console.log(item); // e, d, c, b, a
 }
 ```
