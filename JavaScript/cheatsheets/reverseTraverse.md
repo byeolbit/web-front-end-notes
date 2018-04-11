@@ -12,7 +12,7 @@ for(let i=list.length-1; i>=0; i--) {
 ```
 하지만 `for...in`이나 `for...of`를 쓰고 싶다면 어떻게 해아할까?
 ```js
-list = list.reverse();
+list.reverse();
 for(let item in list) {
     ...
 }
