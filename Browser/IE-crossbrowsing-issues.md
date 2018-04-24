@@ -1,11 +1,12 @@
 # IE cross browsing issues
 
 ### Flex-box
-Height of flex items follows parent's
+Fix for flex items that following parent's height.
 <br>
 ```
 min-height: 1px;
 ```
+
 ### content-fit
 fallback for content-fit
 <br>
