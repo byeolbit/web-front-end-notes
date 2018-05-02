@@ -1,5 +1,6 @@
 # DOM의 이벤트 흐름
-W3C DOM Level 3에 삽입된 내용의 번역
+W3C DOM Level 3에 삽입된 내용의 번역입니다.
+
 원문 : https://www.w3.org/TR/DOM-Level-3-Events/#event-target
 
 ## 이벤트 전파와 DOM이벤트 흐름
