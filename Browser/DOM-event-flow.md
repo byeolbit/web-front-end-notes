@@ -77,5 +77,6 @@ W3C DOM Level 3에 삽입된 내용의 번역입니다.
 
 다음의 과정들은 DOM4에서 이벤트들을 생성하기 위해 정의된 알고리즘을 제공한다.
 
-    - 만약 생성중인 [Event](https://dom.spec.whatwg.org/#event)가 [KeyboardEvent](https://www.w3.org/TR/DOM-Level-3-Events/#keyboardevent-keyboardevent)혹은 [MouseEvent](https://www.w3.org/TR/DOM-Level-3-Events/#mouseevent) 오브젝트 혹은 이런것들로부터 파생된 다른 오브젝트이고, [EventModifierInit]() 인자(argument)가 생성자에 제공되었다면, 다음의 하위절차를 따른다.
-- 모든 [EventModifierInit](https://www.w3.org/TR/DOM-Level-3-Events/#dictdef-eventmodifierinit) 인자들 중에서, 만약 딕셔내리 멤버가 문자 "modifier"로 시작한다면 <em>**key modifier name**</em>이 딕셔내리 멤버의 접두어인 "modifier"를 제외하도록 하고, [키 변경자 이름](https://www.w3.org/TR/DOM-Level-3-Events/#modifier-key-name)(key modifier name)과 일치하는 [Event](https://dom.spec.whatwg.org/#event) 오브젝트의 [내부 키 변경자 상태](https://www.w3.org/TR/DOM-Level-3-Events/#internal-key-modifier-state)(internal key modifier state)를 해당 값으로 설정한다.
+- 만약 생성중인 [Event](https://dom.spec.whatwg.org/#event)가 [KeyboardEvent](https://www.w3.org/TR/DOM-Level-3-Events/#keyboardevent-keyboardevent)혹은 [MouseEvent](https://www.w3.org/TR/DOM-Level-3-Events/#mouseevent) 오브젝트 혹은 이런것들로부터 파생된 다른 오브젝트이고, [EventModifierInit]() 인자(argument)가 생성자에 제공되었다면, 다음의 하위절차를 따른다.
+
+    - 모든 [EventModifierInit](https://www.w3.org/TR/DOM-Level-3-Events/#dictdef-eventmodifierinit) 인자들 중에서, 만약 딕셔내리 멤버가 문자 "modifier"로 시작한다면 <em>**key modifier name**</em>이 딕셔내리 멤버의 접두어인 "modifier"를 제외하도록 하고, [키 변경자 이름](https://www.w3.org/TR/DOM-Level-3-Events/#modifier-key-name)(key modifier name)과 일치하는 [Event](https://dom.spec.whatwg.org/#event) 오브젝트의 [내부 키 변경자 상태](https://www.w3.org/TR/DOM-Level-3-Events/#internal-key-modifier-state)(internal key modifier state)를 해당 값으로 설정한다.
